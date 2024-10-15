@@ -45,10 +45,19 @@ Evaluation metrics included Root Mean Squared Error (RMSE) and R-squared.
 ### Improvements:
 
 Incorporating temporal features (Hour, DayOfWeek, TwoHourInterval, Weekend) led to a significant reduction in RMSE.
+![image](https://github.com/user-attachments/assets/b66b4493-ec56-426d-86f5-cf436914b05d)
+
 
 ## Results
 After incorporating additional features, the model showed improved accuracy across all zones:
 
-Zone 1: RMSE reduced from 5249.296 to 1154.46.
-Zone 2: RMSE reduced from 3366.984 to 801.8158.
-Zone 3: RMSE reduced from 3265.414 to 740.9489.
+* Before Feature Addition:
+Zone 1 RMSE: 5249.296, R-squared: 0.4595
+* After Feature Addition:
+Zone 1 RMSE: 1134.46, R-squared: 0.9742
+
+
+## Key Insights:
+* Adding temporal features (Hour, DayOfWeek, Weekend) significantly improved the model’s performance.
+* Random Forest proved to be an effective model for this type of forecasting.
+![image](https://github.com/user-attachments/assets/f49bc875-94a1-4d55-87f2-9a9c40f26d61)
